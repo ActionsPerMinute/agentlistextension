@@ -1,0 +1,10 @@
+{
+    "author": "tobydavies",
+    "manifest_version": 2,
+    "name": "NodeList",
+    "permissions": [ "activeTab", "tabs", "http://*/*", "https://*/*" ],
+    "version": "0.04",
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}

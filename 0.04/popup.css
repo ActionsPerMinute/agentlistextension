@@ -1,0 +1,144 @@
+body{
+    width: 750px;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 1.3em;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.1em;
+}
+
+input{
+    width: 99%;
+}
+
+
+  table.table-style-two {
+        font-family: verdana, arial, sans-serif;
+        font-size: 11px;
+        color: #535353;
+        border-width: 3px;
+        max-width: 100%;
+        border-color: #ffffff;
+        border-collapse: collapse;
+        width: 98%;
+        margin: 5px;
+    }
+ 
+    table.table-style-two th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #535353;
+        background-color: #333333;
+        color: #fdfdfd;
+        max-width: 100%;
+    }
+ 
+    table.table-style-two tr:hover td {
+        background-color: #DFEBF1;
+        max-width: 100%;
+    }
+ 
+    table.table-style-two td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #517994;
+        background-color: #ffffff;
+        color: #404040;
+        max-width: 100%;
+    }
+
+    table.table-style-three tr:nth-child(even) td{
+                background-color: #f5f5f5;
+    }
+
+
+                    th {
+  background: #006a72;
+}
+th a {
+  color: #fff;
+}
+th a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.dynatable-search {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.dynatable-pagination-links {
+  float: right;
+}
+
+.dynatable-record-count {
+  display: block;
+  padding: 5px 0;
+}
+
+.dynatable-pagination-links span,
+.dynatable-pagination-links li {
+  display: inline-block;
+}
+
+.dynatable-page-link,
+.dynatable-page-break {
+  display: block;
+  padding: 5px 7px;
+}
+
+.dynatable-page-link {
+  cursor: pointer;
+}
+
+.dynatable-active-page,
+.dynatable-disabled-page {
+  cursor: text;
+}
+.dynatable-active-page:hover,
+.dynatable-disabled-page:hover {
+  text-decoration: none;
+}
+
+.dynatable-active-page {
+  background: #006a72;
+  border-radius: 5px;
+  color: #fff;
+}
+.dynatable-active-page:hover {
+  color: #fff;
+}
+.dynatable-disabled-page,
+.dynatable-disabled-page:hover {
+  background: none;
+  color: #999;
+}
+
+.dynatable-demo .dynatable-record-count,
+.dynatable-demo .dynatable-pagination-links {
+  margin-top: 9px;
+}
+
+th a {
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+th,td{
+    max-width:200px !important;
+    word-wrap: break-word;
+}
